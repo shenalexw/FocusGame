@@ -204,28 +204,3 @@ class FocusGame:
 
         self.change_turn(player_profile)
         return True
-
-
-"""
-game = FocusGame(('PlayerA', 'R'), ('PlayerB', 'G'))
-game.move_piece('PlayerA', (0, 0), (0, 1), 1)
-game.move_piece('PlayerB', (5, 0), (5, 1), 1)
-game.move_piece('PlayerA', (0, 1), (0, 3), 2)
-game.move_piece('PlayerB', (5, 1), (5, 3), 2)
-game.move_piece('PlayerA', (5, 2), (5, 3), 1)
-game.move_piece('PlayerB', (0, 2), (0, 3), 1)
-game.move_piece('PlayerA', (4, 5), (5, 5), 1)
-game.move_piece('PlayerB', (1, 5), (0, 5), 1)
-game.move_piece('PlayerA', (5, 5), (5, 3), 2)
-game.move_piece('PlayerB', (0, 5), (0, 3), 2)
-result = game.show_reserve('PlayerA')
-print(result)
-game.reserved_move('PlayerA', (0, 0))
-result = game.show_reserve('PlayerA')
-print(result)
-
-
-
-
-game.print_board()
-"""
